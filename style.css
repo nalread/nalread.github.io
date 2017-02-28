@@ -9,7 +9,8 @@ hr {
 
 .container {
   background-color: #eee;
-  border: 10px solid #ccc; }
+  border: 5px solid #ccc;
+  box-shadow: 10px 10px #777; }
 
 .row {
   padding: 3vh; }
@@ -29,8 +30,8 @@ hr {
     height: 120px; }
 
 footer {
-  height: 5vh;
+  height: 7vh;
   margin: auto;
-  line-height: 5vh; }
+  line-height: 7vh; }
 
 /*# sourceMappingURL=style.css.map */
