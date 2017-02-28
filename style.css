@@ -1,8 +1,36 @@
 body {
   background-color: #999; }
 
+hr {
+  border-color: darkorange;
+  border-width: 3px;
+  margin: 0 auto;
+  max-width: 75%; }
+
 .container {
   background-color: #eee;
   border: 10px solid #ccc; }
+
+.row {
+  padding: 3vh; }
+
+.contact {
+  border-right: 2px solid darkorange; }
+
+.technologies {
+  display: flex;
+  justify-content: center; }
+  .technologies ul {
+    list-style: none; }
+  .technologies li {
+    float: left;
+    margin: auto 3vw; }
+  .technologies img {
+    height: 120px; }
+
+footer {
+  height: 5vh;
+  margin: auto;
+  line-height: 5vh; }
 
 /*# sourceMappingURL=style.css.map */
