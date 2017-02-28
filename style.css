@@ -15,8 +15,8 @@ hr {
 .row {
   padding: 3vh; }
 
-.contact {
-  border-right: 2px solid darkorange; }
+.about {
+  border-left: 2px solid darkorange; }
 
 .technologies {
   display: flex;
