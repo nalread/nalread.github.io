@@ -1,2 +1,8 @@
+body {
+  background-color: #999; }
+
+.container {
+  background-color: #eee;
+  border: 10px solid #ccc; }
 
 /*# sourceMappingURL=style.css.map */
