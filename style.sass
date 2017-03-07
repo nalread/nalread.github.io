@@ -1,22 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat')
+
+$border-color: #e67e22
+
+h1, h2, h3, h4, h5, h6
+	font-family: "Montserrat"
+
+p, a
+	font-family: "Roboto"
+
 body
-	background-color: #999
+	// background-color: #999
+	background-color: #bdc3c7
 
 hr
-	border-color: darkorange
+	border-color: $border-color
 	border-width: 3px
 	margin: 0 auto
 	max-width: 75%
 
 .container
-	background-color: #eee
-	border: 5px solid #ccc
-	box-shadow: 10px 10px #777
+	// background-color: #eee
+	background-color: #ecf0f1
+	margin-top: 2vh
+	// border: 5px solid #ccc
+	box-shadow: 10px 10px 5px #777
 
 .row
 	padding: 3vh
 
 .about
-	border-left: 2px solid darkorange
+	border-left: 2px solid $border-color
 
 .technologies
 	display: flex
@@ -30,6 +43,9 @@ hr
 		height: 120px
 
 footer
-	height: 7vh
+	height: 8vh
 	margin: auto
-	line-height: 7vh
+	line-height: 8vh
+
+	p
+		margin-bottom: 0
