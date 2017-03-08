@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat')
 
-$border-color: #e67e22
+$font-color: #222
+$accent-color: #e67e22
 
 h1, h2, h3, h4, h5, h6
 	font-family: "Montserrat"
+	color: $font-color
 
 p, a
 	font-family: "Roboto"
+	color: $font-color
+
+a
+	text-decoration: none
+	color: $font-color
+	&:hover
+		color: $accent-color
+		font-weight: bold
 
 .fa
 	font-size: 1.3em
@@ -19,7 +29,7 @@ body
 	background-color: #bdc3c7
 
 hr
-	border: 1px solid $border-color
+	border: 1px solid $accent-color
 	margin: 2vh auto 0
 	max-width: 50%
 
@@ -30,7 +40,7 @@ hr
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
 
 .about
-	border-left: 2px solid $border-color
+	border-left: 2px solid $accent-color
 
 .technologies
 	display: flex
