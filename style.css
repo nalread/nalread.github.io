@@ -8,15 +8,16 @@ p, a {
 .fa {
   font-size: 1.3em; }
 
+.contact a {
+  font-size: 1.2em; }
+
 body {
   background-color: #bdc3c7; }
 
 hr {
-  border-style: solid;
-  border-color: #e67e22;
-  border-top-width: 1px;
+  border: 1px solid #e67e22;
   margin: 2vh auto 0;
-  max-width: 30%; }
+  max-width: 50%; }
 
 .general-container {
   background-color: #ecf0f1;
@@ -34,7 +35,7 @@ hr {
     list-style: none; }
   .technologies li {
     float: left;
-    margin: auto 3vh; }
+    margin: auto 4vh; }
   .technologies img {
     height: 120px; }
 
