@@ -12,18 +12,17 @@ body {
   background-color: #bdc3c7; }
 
 hr {
+  border-style: solid;
   border-color: #e67e22;
-  border-width: 3px;
-  margin: 0 auto;
+  border-top-width: 1px;
+  margin: 2vh auto 0;
   max-width: 75%; }
 
-.container {
+.general-container {
   background-color: #ecf0f1;
   margin-top: 2vh;
+  padding-bottom: 1vh;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-
-.row {
-  padding: 3vh; }
 
 .about {
   border-left: 2px solid #e67e22; }
@@ -35,9 +34,12 @@ hr {
     list-style: none; }
   .technologies li {
     float: left;
-    margin: auto 3vw; }
+    margin: auto 3vh; }
   .technologies img {
     height: 120px; }
+
+.my-works img {
+  max-height: 200px; }
 
 footer {
   height: 8vh;
