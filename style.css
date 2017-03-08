@@ -1,11 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat");
+body {
+  background-color: #bdc3c7; }
+
+.general-container {
+  background-color: #ecf0f1;
+  margin-top: 2vh;
+  padding-bottom: 1vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
   color: #222; }
 
+aside {
+  color: #555; }
+
 p, a {
   font-family: "Roboto";
   color: #222; }
+
+hr {
+  border: 1px solid #e67e22;
+  margin: 2vh auto 0;
+  max-width: 50%; }
 
 a {
   text-decoration: none;
@@ -14,42 +31,35 @@ a {
     color: #e67e22;
     font-weight: bold; }
 
-.fa {
-  font-size: 1.3em; }
-
-.contact a {
-  font-size: 1.2em; }
-
-body {
-  background-color: #bdc3c7; }
-
-hr {
-  border: 1px solid #e67e22;
-  margin: 2vh auto 0;
-  max-width: 50%; }
-
-.general-container {
-  background-color: #ecf0f1;
-  margin-top: 2vh;
-  padding-bottom: 1vh;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-
-.about {
-  border-left: 2px solid #e67e22; }
-
-.technologies {
+.badges {
   display: flex;
   justify-content: center; }
-  .technologies ul {
-    list-style: none; }
-  .technologies li {
+  .badges ul {
+    list-style: none;
+    padding: 0; }
+  .badges li {
     float: left;
-    margin: auto 4vh; }
-  .technologies img {
+    margin: 2vh 4vw; }
+  .badges img {
     height: 120px; }
 
 .my-works img {
   max-width: 200px; }
+
+.work-card {
+  margin-top: 2vh;
+  background-color: #f7f7f7;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.3s; }
+  .work-card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.27), 0 12px 12px rgba(0, 0, 0, 0.33); }
+
+.fa {
+  font-size: 1.3em;
+  padding: 0 1vw; }
+
+.contact-me a {
+  font-size: 1.2em; }
 
 footer {
   height: 8vh;
